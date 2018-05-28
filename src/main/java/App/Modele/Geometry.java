@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 /**
  * Classe permettant de représenter l'objet "geometry" d'un GeoJson.
- * Jackson json permet de ré-écrire l'objet sous format json en
- * ré-écrivant chaque attribut disposant d'un getter.
+ * Jackson json permet de réécrire l'objet sous format json en
+ * réécrivant chaque attribut disposant d'un getter.
  * Chaque objet Geometry contiendra la couverture mobile d'un site.
  * @author Francois, Céline
  */
