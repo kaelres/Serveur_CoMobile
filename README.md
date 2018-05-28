@@ -1,1 +1,1 @@
-Partie Sereur des groupes 1 et 2
+Partie Serveur des groupes 1 et 2
