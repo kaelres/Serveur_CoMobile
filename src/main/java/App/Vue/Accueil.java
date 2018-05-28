@@ -76,13 +76,13 @@ public class Accueil extends JFrame {
     }
 
     /**
-     * La classe qui permet de définir l'action à faire quand on clique sur le bouton Démarrer.
-     * Pour cela, elle implémente ActionListener qui gère les évènements liés au clique sur un composant.
+     * Cette classe permet de définir l'action à faire quand on clique sur le bouton Démarrer.
+     * Pour cela, elle implémente ActionListener qui gère les évènements liés au clic sur un composant.
      * @author François, Céline
      */
     private class BoutonListenerDemarrer implements ActionListener {
         /**
-         * Cette méthode découle de l'interface ActionListener et gère l'évenement associé au clique sur le bouton Démarrer.
+         * Cette méthode découle de l'interface ActionListener et gère l'évenement associé au clic sur le bouton Démarrer.
          * Elle permet de mettre en marche le serveur spring et de conserver son contexte pour une eventuelle extinction de celui-ci.
          * @param arg0 évenement lié au clique sur le bouton implémentant l'ActionListener
          */
@@ -95,13 +95,13 @@ public class Accueil extends JFrame {
     }
 
     /**
-     * La classe qui permet de définir l'action à faire quand on clique sur le bouton Eteindre.
-     * Pour cela, elle implémente ActionListener qui gère les évènements liés au clique sur un composant.
+     * Cette classe permet de définir l'action à faire quand on clique sur le bouton Eteindre.
+     * Pour cela, elle implémente ActionListener qui gère les évènements liés au clic sur un composant.
      * @author François, Céline
      */
     private class BoutonListenerEteindre implements ActionListener {
         /**
-         * Cette méthode découle de l'interface ActionListener et gère l'évenement associé au clique sur le bouton Eteindre.
+         * Cette méthode découle de l'interface ActionListener et gère l'évenement associé au clic sur le bouton Eteindre.
          * Elle permet d'éteindre le serveur spring sans fermer pour autant l'application.
          * @param arg0 évenement lié au clique sur le bouton implémentant l'ActionListener
          */
@@ -120,12 +120,12 @@ public class Accueil extends JFrame {
 
     /**
      * La classe qui permet de définir l'action à faire quand on clique sur le bouton Démarrer.
-     * Pour cela, elle implémente ActionListener qui gère les évènements liés au clique sur un composant.
+     * Pour cela, elle implémente ActionListener qui gère les évènements liés au clic sur un composant.
      * @author François,Céline
      */
     private class BoutonListenerQuitter implements ActionListener {
         /**
-         * Cette méthode découle de l'interface ActionListener et gère l'évenement associé au clique sur le bouton Quitter.
+         * Cette méthode découle de l'interface ActionListener et gère l'évenement associé au clic sur le bouton Quitter.
          * Elle permet de fermer l'application java et d'éteindre par la même occasion le serveur spring.
          * @param arg0 évenement lié au clique sur le bouton implémentant l'ActionListener
          */
