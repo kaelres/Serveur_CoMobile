@@ -3,8 +3,8 @@ package App.Modele;
 /**
  * Classe représentant un site dans le GeoJson. Elle correspond à une "feature"
  * du GeoJson.
- * Jackson json permet de ré-écrire l'objet sous format json en
- * ré-écrivant chaque attribut disposant d'un getter.
+ * Jackson json permet de réécrire l'objet sous format json en
+ * réécrivant chaque attribut disposant d'un getter.
  * @author Francois, Céline
  */
 public class Feature {
