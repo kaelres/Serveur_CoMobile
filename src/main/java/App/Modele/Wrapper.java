@@ -1,13 +1,14 @@
 package App.Modele;
 
 /**
- *Cette classe à pour unique but d'envelopper le geojson envoyé afin de rendre sa lecture et utilisation
+ * Cette classe a pour unique but d'envelopper le geojson envoyé afin de rendre sa lecture et utilisation
  * plus simple par l'application cliente.
+ * @author Francois, Céline
  */
 public class Wrapper {
 
     /**
-     * ObjetMonGeoJson a renvoyer.
+     * ObjetMonGeoJson à renvoyer.
      */
     private MonGeoJson monGeoJson;
 
