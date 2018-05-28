@@ -17,7 +17,7 @@ public class Site {
     private int id;
     /**
      * Ensemble des coordonnées qui permettent de représenter la zone de couverture du site.
-     * Chaque élément correspond à une des zone couverte.
+     * Chaque élément correspond à une des zones couvertes.
      */
     private ArrayList<double[][]> coo;
 
