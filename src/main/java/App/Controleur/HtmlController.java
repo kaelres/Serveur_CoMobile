@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * Classe controleur permettant de gérer l'envoi de pages html au client.
+ * Classe controleur permettant de gérer l'envoi de pages html au client. Elle fait usage de l'annotaion @Controller.
  */
 @Controller
 public class HtmlController {
