@@ -3,8 +3,9 @@ package App.Modele;
 import java.io.Serializable;
 
 /**
- * Cette classe, implémentant l'interface Serializable est utilisée afin d'interpreter l'objet Json envopyé
+ * Cette classe, implémentant l'interface Serializable est utilisée afin d'interpréter l'objet Json envoyé
  * par l'application cliente dans sa requête afin d'obtenir une représentation de couverture mobile.
+ * @author Francois, Céline
  * @see Serializable
  */
 public class RequestCover implements Serializable {
