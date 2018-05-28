@@ -15,12 +15,12 @@ public class Point {
      */
     private double longitude;
     /**
-     * Place dans la séquence de point formant un polygone.
+     * Place dans la séquence de point formant une zone(polygone).
      */
     private int ordre;
 
     /**
-     * Crée un nouvel objet point disposant d'une latitude, d'une longitude ainsi que d'un ordre.
+     * Crée un nouvel objet Point disposant d'une latitude, d'une longitude ainsi que d'un ordre.
      * @param latitude Valeur affectée à l'attribut {@link #latitude}.
      * @param longitude Valeur affectée à l'attribut {@link #longitude}.
      * @param ordre Valeur affectée à l'attribut {@link #ordre}.
