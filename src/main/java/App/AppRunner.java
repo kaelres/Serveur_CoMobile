@@ -8,6 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 /**
  * Classe Principale qui permet le lancement de l'application.
+ * @author Francois, Céline
  */
 @SpringBootApplication
 public class AppRunner {
