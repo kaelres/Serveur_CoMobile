@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 /**
  * Classe permettant de représenter un GeoJson. Celle-ci possède la même structure
- * qu'un fichier geojson. Jackson json permet de ré-écrire l'objet sous format json en
- * ré-écrivant chaque attribut disposant d'un getter.
+ * qu'un fichier geojson. Jackson json permet de réécrire l'objet sous format json en
+ * réécrivant chaque attribut disposant d'un getter.
  * @author Francois, Céline
  */
 public class MonGeoJson {
@@ -31,7 +31,7 @@ public class MonGeoJson {
      * <ul>
      *     <li>Aucune technologie et aucun opérateur renseignée n'aura aucun effet.</li>
      *     <li>Renseigner uniquement un opérateur renvoie l'ensemble des antennes de cet opérateur toutes technologies confondues.</li>
-     *     <li>Renseigner uniquement une technologie renvoie l'ensemble des antennes émettant cette technologie, tout opérateurs confondus.</li>
+     *     <li>Renseigner uniquement une technologie renvoie l'ensemble des antennes émettant cette technologie, tous opérateurs confondus.</li>
      *     <li>Les deux informations sont renseigéns, dans ce cas seules les antennes correspondant aux deux sont renvoyées.</li>
      * </ul>
      * @param tech Technologie que le site doit utiliser.
