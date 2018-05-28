@@ -18,7 +18,7 @@ import javax.sql.DataSource;
 public class AppConfig {
 
     /**
-     * Instancie le controller gérant la requête html Post "/geo".
+     * Instancie le contrôleur gérant la requête html Post "/geo".
      * @return Renvoie un objet connectiviteController.
      * @see ConnectiviteController
      */
