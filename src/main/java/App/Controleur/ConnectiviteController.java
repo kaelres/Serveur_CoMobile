@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 /**
- * Classe gérant les requêtes Http. Celle-ci suit une architecture REST et fait donc usage de l'annotation @RestController.
+ * Classe gérant les requêtes Http nécessitant en réponse un fichier json. Celle-ci suit une architecture REST et fait donc usage de l'annotation @RestController.
  * @author Francois, Céline
  */
 @RestController
@@ -18,8 +18,8 @@ public class ConnectiviteController {
 
     /**
      * Cette méthode utilise Jackson json afin de créer et envoyer un objet geojson lisible par le client.
-     *  Elle traite la méthode Http "Post" d'argument "/geo" et se sert de la classe RequestCover afin de
-     *  récupérer l'argument envoyé par le client.
+     * Elle traite la méthode Http "Post" d'argument "/geo" et se sert de la classe RequestCover afin de
+     * récupérer l'argument envoyé par le client.
      * @param requestCover Objet java permettant de récupérer l'argument de la requête client.
      * @return Renvoie un ensemble de zone de couverture mobile au format geojson.
      * @see RequestCover
