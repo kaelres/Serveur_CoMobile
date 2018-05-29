@@ -14,7 +14,7 @@
   localhost:8080
 ```
 Ceci est valable si vous êtes sur la machine serveur, si vous êtes sur une machine différente de celle du serveur il vous faudra rentrez l'adresse ip de la machine serveur suivi de `:8080`. 
-Exemple :  90.73.166.242:8080
+<br/>Exemple :  90.73.166.242:8080
 
 Une fois ceci-fait vous pouvez voir une carte google map qui dispose dans le coin supérieur gauche d'un menu. Cliquez sur celui-ci vous permet d'accèder à une liste d'opérateurs et de technologies, cochez celles que vous voulez voir apparaître sur la carte et validez votre choxi en appuyant sur le bouton. Après un temps de chargement vous devriez pouvoir voir apparaître la couverture mobile.
 > Prenez en compte que valider un choix sans avoir coché aucune option ne fera rien apparaître, il faut au minimum cocher un opérateur ou une technologie.
